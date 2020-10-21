@@ -23,9 +23,9 @@
                     <?php if (array_key_exists('user', $_SESSION)) : ?>
                     <li><a href="/user/update.php">My Page</a></li>
                     <li><a href="/user/write.php">Write</a></li>
-                    <li><a href="/user/logout.php">Sign out</a></li>
+                    <li><a href="/auth/logout.php">Sign out</a></li>
                     <?php else : ?>
-                    <li><a href="/user/login.php">Sign in</a></li>
+                    <li><a href="/auth/login.php">Sign in</a></li>
                     <?php endif; ?>
                 </ul>
             </div>
