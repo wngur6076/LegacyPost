@@ -46,7 +46,7 @@ $posts = array_map(function ($post) {
 }, $posts);
 ?>
 
-<?php require_once 'layouts/top.php'?>
+<?php require_once dirname(__FILE__) . '/layouts/top.php'; ?>
 
 <div id="main__index" class="uk-container">
     <ul class="uk-list">
@@ -68,4 +68,4 @@ $posts = array_map(function ($post) {
 </div>
 <button id="readmore" class="uk-button uk-button-default">Read more</button>
 
-<?php require_once 'layouts/bottom.php'?>
+<?php require_once dirname(__FILE__) . '/layouts/bottom.php'; ?>
